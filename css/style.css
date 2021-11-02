@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Menu Bar CSS */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d5656;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover {
+  background-color: #1b2631;
+}
+
+/* Background Image CSS */
+.bg-img {
+  background-image: url(../images/background.jpg);
+  height: 565px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  position: relative;
+}
+.txt-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #b7950b;
+  font-size: 25px;
+}
+.cta-btn1 {
+  background-color: blue; /* Green */
+  border: 2px solid blue;
+  border-radius: 30px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.cta-btn1:hover {
+  background-color: white;
+  color: blue;
+}
+
+.cta-btn2 {
+  background-color: white; /* Green */
+  border: 2px solid blue;
+  border-radius: 30px;
+  color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.cta-btn2:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* about us section css */
+.aboutus-section {
+  width: 100%;
+  background-color: #ecf0f1;
+}
+.aboutus {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 35px;
+  font-weight: bold;
+}
+.aboutus-contents {
+  padding: 20px 100px;
+  text-align: center;
+}
+.aboutus-contents p {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.aboutus-contents .para1 {
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: #909497;
+}
+.aboutus-contents .para2 {
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: #d0d3d4;
+}
+.aboutus-contents .para3 {
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: #909497;
+  margin-bottom: 50px;
+}
+
+/*  Flowers Section  */
+.flowers-section {
+  width: 100%;
+  background-color: white;
+}
+.flowers h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+}
+.rose img {
+  width: 150px;
+  height: 150px;
+  float: right;
+  padding-left: 0px 20px;
+}
+.rose p {
+  padding: 10px 100px;
+  font-size: 20px;
+}
+
+.carnation {
+  margin-top: 80px;
+}
+
+.carnation img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-left: 20px 20px;
+}
+.clearfix {
+  clear: both;
+}
+.carnation p {
+  padding: 10px 100px;
+  font-size: 20px;
+}
+
+.orchid {
+  margin-top: 80px;
+}
+.orchid p {
+  padding: 10px 100px;
+  font-size: 20px;
+}
+
+.orchid img {
+  width: 150px;
+  height: 150px;
+  float: right;
+  padding-left: 20px 20px;
+}
+
+.gardenias {
+  margin-top: 80px;
+}
+.gardenias p {
+  padding: 10px 100px;
+  font-size: 20px;
+}
+
+.gardenias img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-left: 20px 20px;
+}
+
+.hydrangea {
+  margin-top: 80px;
+}
+.hydrangea p {
+  padding: 10px 100px;
+  font-size: 20px;
+}
+
+.hydrangea img {
+  width: 150px;
+  height: 150px;
+  float: right;
+  padding-left: 20px 20px;
+}
+
+/* contact us section css */
+.contactus-section {
+  width: 100%;
+  background-color: #ecf0f1;
+}
+.contactus {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 35px;
+  font-weight: bold;
+}
+.contactus {
+  text-align: center;
+}
+.contact-form {
+  padding: 20px 400px;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+.contact-btn {
+  background-color: white; /* Green */
+  border: 2px solid blue;
+  border-radius: 30px;
+  color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #4d5656;
+}
+.footer {
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+}
